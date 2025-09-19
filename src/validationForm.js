@@ -45,7 +45,6 @@ form.addEventListener("submit", (event) => {
         return null;
       })
       .catch((error) => {
-        console.log(error);
       });
   }
 });
