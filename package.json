@@ -1,0 +1,19 @@
+{
+    "name": "packeg",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint . --ext .js"
+    },
+    "devDependencies": {
+        "sass": "^1.92.1",
+        "vite": "^7.1.2"
+    },
+    "dependencies": {
+        "@delement/eslint-config-master": "^1.1.7"
+    }
+}
